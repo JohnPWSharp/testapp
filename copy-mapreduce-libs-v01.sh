@@ -16,4 +16,4 @@
 mkdir -p ${2}
 
 # Copy the libraries from $SourceDir in HDFS to $LibDir 
-$HADOOP_HOME/bin/hadoop fs -copyToLocal ${1}/* ${2}
+/usr/bin/hadoop fs -copyToLocal ${1}/* ${2}
