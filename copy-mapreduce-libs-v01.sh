@@ -8,7 +8,7 @@
 # .\copy-mapreduce-libs-v01.sh <source in HDFS> <destination on each node>
 #
 # EXAMPLE 
-# .\copy-mapreduce-libs-v01.sh wasb://hivecontainer@mystorage.blob.core.windows.net/jars /usr/lib/java 
+# .\copy-mapreduce-libs-v01.sh /upload/jars /usr/lib/java
 # 
  
 
